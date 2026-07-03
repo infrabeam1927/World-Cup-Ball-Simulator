@@ -38,9 +38,8 @@
     }
     .hero h1 { margin: 0 0 8px; font-size: 2rem; }
     .hero p { margin: 0; color: var(--muted); max-width: 980px; }
-    .grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 20px; }
     .cards-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-    .pair-row { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 20px; }
+    .cards-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
     .card h2 { margin-top: 0; margin-bottom: 10px; font-size: 1.1rem; }
     .card p { color: var(--muted); }
     .ball-panel, .graph-panel, .bat-panel, .offside-panel {
@@ -88,7 +87,7 @@
     .status-accent { color: var(--accent); }
 
     @media (max-width: 980px) {
-      .grid, .cards-2, .pair-row { grid-template-columns: 1fr; }
+      .cards-2, .cards-3 { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -100,9 +99,8 @@
       <p class="small" style="margin-top: 10px;">Use the controls below to inspect the sensor placement, contact types, pulse trace, battery behavior, and offside edge case in one continuous view.</p>
     </section>
 
-    <div class="grid">
-      <section class="card">
-        <h2>Sensor placement</h2>
+    <section class="card">
+      <h2>Sensor placement</h2>
         <div class="ball-panel">
           <svg viewBox="0 0 500 500" role="img" aria-label="A stylized soccer ball showing an IMU chip mounted in the sidewall of one panel and counterweights elsewhere inside the ball">
             <circle cx="250" cy="250" r="190" fill="#071727" stroke="#dfeeff" stroke-width="6" />
@@ -136,11 +134,9 @@
           <span><i class="dot green"></i> Counterweights</span>
         </div>
         <div class="note">The ball’s balance is preserved by distributed counterweights while the sensor sits off-center in the shell, so the ball still feels like a normal ball even though it can detect sharp inertial changes.</div>
-      </section>
+    </section>
 
-    </div>
-
-    <div class="pair-row">
+    <div class="cards-3">
       <section class="card">
         <h2>Contact types</h2>
         <p>Use these controls to trigger different contact kinds. The simulator distinguishes a clean pass, a powerful shot, a deflection, a hair-touch near the noise floor, and ambient rolling noise.</p>

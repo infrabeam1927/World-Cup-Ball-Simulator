@@ -1,5 +1,7 @@
 # World-Cup-Ball-Simulator
 
+**Live demo:** https://infrabeam1927.github.io/World-Cup-Ball-Simulator/
+
 > **Disclaimer:** This is an unofficial, non-commercial educational project created for learning purposes only. It is not affiliated with, endorsed by, or produced in association with FIFA, Adidas, Kinexon, or any other organization. All product and organization names are the property of their respective owners and are referenced here solely for educational commentary.
 
 This simulator is a browser-based study tool for the Adidas Trionda contact-detection concept used in the 2026 World Cup ball.
@@ -33,7 +35,7 @@ Contact type isn't the only thing that shapes what the sensor reports. The simul
 
 ## How to use it
 
-Open [index.html](index.html) in a browser and use the controls to trigger contact events.
+Open the [live demo](https://infrabeam1927.github.io/World-Cup-Ball-Simulator/), or open [index.html](index.html) directly in a browser, and use the controls to trigger contact events.
 
 ## Reproducing the Croatia vs. Portugal incident
 

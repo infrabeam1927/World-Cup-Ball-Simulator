@@ -1,5 +1,7 @@
 # World-Cup-Ball-Simulator
 
+> **Disclaimer:** This is an unofficial, non-commercial educational project created for learning purposes only. It is not affiliated with, endorsed by, or produced in association with FIFA, Adidas, Kinexon, or any other organization. All product and organization names are the property of their respective owners and are referenced here solely for educational commentary.
+
 This simulator is a browser-based study tool for the Adidas Trionda contact-detection concept used in the 2026 World Cup ball.
 
 ## Table of contents

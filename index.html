@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adidas Trionda Contact Simulator</title>
+  <meta name="description" content="Unofficial, non-commercial educational simulation exploring contact-detection sensor concepts. Not affiliated with or endorsed by FIFA, Adidas, Kinexon, or any other organization." />
+  <title>Adidas Trionda Contact Simulator (Unofficial, Educational)</title>
   <style>
     :root {
       color-scheme: dark;
@@ -86,6 +87,16 @@
     .status-warn { color: var(--warn); }
     .status-accent { color: var(--accent); }
 
+    .disclaimer {
+      background: rgba(255, 107, 107, 0.12);
+      border: 1px solid rgba(255, 107, 107, 0.4);
+      border-radius: 16px;
+      padding: 12px 18px;
+      font-size: 0.92rem;
+      color: var(--ink);
+    }
+    .disclaimer strong { color: var(--warn); }
+
     @media (max-width: 980px) {
       .cards-2, .cards-3 { grid-template-columns: 1fr; }
     }
@@ -93,6 +104,10 @@
 </head>
 <body>
   <div class="wrap">
+    <div class="disclaimer" role="note">
+      <strong>Disclaimer:</strong> This is an unofficial, non-commercial educational simulation created for learning purposes only. It is not affiliated with, endorsed by, or produced in association with FIFA, Adidas, Kinexon, or any other organization. All product and organization names are the property of their respective owners and are referenced here solely for educational commentary.
+    </div>
+
     <section class="hero">
       <h1>Adidas Trionda contact-detection simulator</h1>
       <p>This page models the key ideas behind the 2026 World Cup ball’s contact sensing with a sidewall-mounted IMU, a live pulse trace, battery behavior, and an offside scenario inspired by the Croatia vs. Portugal moment. It is an educational simulation grounded in the real architecture rather than a generic touch-switch model.</p>

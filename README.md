@@ -2,6 +2,10 @@
 
 **Live demo:** https://infrabeam1927.github.io/World-Cup-Ball-Simulator/
 
+## Project Summary
+
+A browser-based simulator exploring a genuinely hard signal-processing problem: how do you reliably tell a real touch on a ball from background noise? Modeled on the sensing concept behind the 2026 World Cup ball's sidewall-mounted inertial sensor, it simulates the full detection pipeline — a live pulse trace, a tunable detection threshold, and the environmental, physical, and interference factors that can push a real touch below that line, or noise above it. It's a small project, but it demonstrates practical thinking about sensor threshold design, false positives/negatives, and edge-case reasoning that goes beyond a basic "did it touch or not" model. It opens with a guided demo mode that walks through the key scenarios automatically, for anyone who wants the short version.
+
 > **Disclaimer:** This is an unofficial, non-commercial educational project created for learning purposes only. It is not affiliated with, endorsed by, or produced in association with FIFA, Adidas, Kinexon, or any other organization. All product and organization names are the property of their respective owners and are referenced here solely for educational commentary.
 
 This simulator is a browser-based study tool for the Adidas Trionda contact-detection concept used in the 2026 World Cup ball.
@@ -35,7 +39,7 @@ Contact type isn't the only thing that shapes what the sensor reports. The simul
 
 ## How to use it
 
-Open the [live demo](https://infrabeam1927.github.io/World-Cup-Ball-Simulator/), or open [index.html](index.html) directly in a browser, and use the controls to trigger contact events.
+Open the [live demo](https://infrabeam1927.github.io/World-Cup-Ball-Simulator/), or open [index.html](index.html) directly in a browser. From the opening screen, either click **Launch simulator** to explore the controls yourself, or **Watch guided demo** to have the app walk through the key scenarios (clean pass, shot, hair-touch detection, offside recreation) automatically with on-screen captions.
 
 ## Reproducing the Croatia vs. Portugal incident
 
